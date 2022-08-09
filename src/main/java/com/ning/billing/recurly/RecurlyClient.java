@@ -150,7 +150,7 @@ public class RecurlyClient {
 
     public static final String FETCH_RESOURCE = "/recurly_js/result";
 
-    private static final Set<String> validHosts = ImmutableSet.of("recurly.com");
+    private static final Set<String> validHosts = ImmutableSet.of("recurly.com", "recurly.dev");
 
     /**
      * RFC-3986 unreserved characters used for standard URL encoding.<br>
